@@ -1,14 +1,8 @@
 //define functions here
 
-$('p').on('keypress', getIt() {
-  alert("Hey!");
-  return;
-});
-
-$(document).on('keypress', function(key) {
-  if (key.which == 13) {
-    alert('enter was pressed');
-  }
+function getIt() {
+  $('p').on('click', function() {
+      alert("Hey!");
 });
 
 $(document).ready(function() {
