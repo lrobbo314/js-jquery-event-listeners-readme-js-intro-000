@@ -17,7 +17,9 @@ function frameIt() {
 
 function pressIt() {
   $('#typing').on('keydown', function(key) {
-    console.log(key);
+    if(key.which === 71) {
+      alert(key.value + ' was pressed');
+    }
   });
 }
 
@@ -25,4 +27,3 @@ $(document).ready(function() {
   // call functions here
   getIt();
 });
-
