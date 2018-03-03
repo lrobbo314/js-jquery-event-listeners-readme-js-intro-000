@@ -15,6 +15,12 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('#input').on('keydown', function(key) {
+    console.log(key);
+  });
+}
+
 $(document).ready(function() {
   // call functions here
   getIt();
