@@ -1,7 +1,11 @@
 //define functions here
 
-$(document).ready(function(){
+$('p').on("keypress", getIt() {
+  alert("Hey!");
+  return;
+});
 
-// call functions here
-
+$(document).ready(function() {
+  // call functions here
+  getIt();
 });
