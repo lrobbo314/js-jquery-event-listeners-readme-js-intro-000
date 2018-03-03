@@ -1,6 +1,6 @@
 //define functions here
 
-$('p').on("keypress", getIt() {
+$('p').on('keypress', getIt() {
   alert("Hey!");
   return;
 });
