@@ -11,7 +11,8 @@ $(document).on('keypress', function(key) {
   }
 });
 
-$(document).ready(function() {
-  // call functions here
-  getIt();
-});
+// $(document).ready(function() {
+//   // call functions here
+//   getIt();
+// });
+
